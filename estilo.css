@@ -1,0 +1,52 @@
+p {
+    font-size: 18pt;
+}
+
+.paragrafo {
+    color: violet;
+}
+
+#titulo-principal {
+    font-size: 40px;
+    color: rgb(250, 200, 130);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.caixa {
+    width: 30%;
+    height: 80px;
+    background-color: blue;
+}
+
+a {
+    margin: 20px;;
+}
+
+#sobre {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+nav {
+    display: flex;
+    background-color: #333333;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+* {
+    margin: 0;
+}
+
+.logo {
+    width: 20%;
+    height: 20%;
+}
+
+.link {
+    color: #fff;
+}
